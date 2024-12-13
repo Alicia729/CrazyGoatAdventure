@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="./styles/contacto.css">
+</head>
+<body>
+    <header class="imagen">
+        <img src="./images/foto20.jpg" class="ajustarimagen">
+        <nav>
+            <div class="logo">CRAZY GOAT ADVENTURE</div>
+            <ul class="nav-links">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./quiensoy.html">Quien soy</a></li>
+                <li><a href="./galeria.html">Galería</a></li>
+                <li><a href="./contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+        <div class="formulariocontacto">
+            
+            <form>
+            <h1>Formulario de Contacto</h1>
+            <p>Enviar un correo electrónico. Todos los campos son obligatorios.</p>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+    
+            <label for="correo">Correo Electrónico:</label>
+            <input type="email" id="correo" name="correo" required>
+    
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" id="telefono" name="telefono" required>
+    
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+    
+            
+
+            <h2>¿Qué tipo de viaje prefieres?</h2>
+            <input type="radio" id="personalizado" name="tipo_viaje" value="personalizado">
+             <label for="personalizado">Viaje personalizado</label><br>
+             <input type="radio" id="organizado" name="tipo_viaje" value="organizado">
+             <label for="organizado">Viaje ya organizado</label>
+             <p>
+                <input type="checkbox" id="terminos" name="terminos" required>
+                <label for="terminos">He leído y acepto los Términos y Condiciones</a>.</label>
+              </p>
+
+             <button type="submit">Enviar</button>
+            </form>
+        
+        </div>
+    
+    <section>
+    <h1>CRAZYGOAT ADVENTURE</h1>
+    <P>Correo electrónico:</P>
+    <a href="mailto:?subject= &body=correo electronico:">
+        <p>crazygoatadventure@crazygoat.com</p>
+      </a>
+    <p>----------------------------------</p>
+    <p>+34 747 45 29 72</p>
+    <p>----------------------------------</p>
+    <p>Málaga, España</p>
+    </section>               
+    
+    <footer>
+        <p>&copy; 2024 Crazy Goat Adventure. Todos los derechos reservados.</p>
+    </footer>
+    
+
+</body>
+</html>

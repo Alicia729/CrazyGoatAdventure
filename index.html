@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crazy Goat Adventure</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <header class="fondoImagen">
+        <img src="./images/fotoPortada1.jpg" alt="Imagen no funciona" class="ajustarImagen">
+        <nav>
+            <div class="logo">CRAZY GOAT ADVENTURE</div>
+            <ul class="nav-links">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./quiensoy.html">Quien soy</a></li>
+                <li><a href="./galeria.html">Galería</a></li>
+                <li><a href="./contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+        
+        <div class="hero">
+            <h1>CRAZY GOAT ADVENTURE</h1>
+        </div>
+    </header>
+
+    <main>
+        <article>
+            <h2>LA AVENTURA EMPIEZA AQUI</h2>
+            <div class="contenedortexto">
+            <p>Desde Crazy Goat Adventure</p>
+            <p>Queremos llevarte al limite donde podrás vivir aventuras auténticas y descubrir rincones del planeta que pocos conocen </p>
+            <p>Imagínate conduciendo tu propio 4x4 por dunas infinitas, cruzando ríos y explorando oasis escondidos.</p>
+            <p> Diseñamos cada viaje a medida, adaptándonos a tus gustos y preferencias.</p>
+            <p>¿Prefieres la adrenalina de la conducción off-road o la tranquilidad de un campamento bajo las estrellas?</p>
+            <p> Nosotros nos encargamos de todo para que tú solo te preocupes de disfrutar.</p>
+            <p>¿Estás listo para vivir la aventura de tu vida? ¡Contáctame y juntos planificaremos tu próximo viaje inolvidable!"</p>
+            </div>
+            <iframe class ="mapa" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3521296.4356573843!2d-6.109574780113582!3d30.47106389497851!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2ses!4v1733507831882!5m2!1ses!2ses"></iframe>
+        </article>
+       
+       <aside>
+        <div class="formulario1">
+        <form>
+        <h3>Suscríbete para recibir noticias de más viajes</h3>
+        
+        <label for="nombre"></label>
+        <input type="text" id="nombre" name="nombre" required placeholder="Nombre">
+        
+        <label for="apellidos"></label>
+        <input type="text" id="apellidos" name="apellidos" required placeholder="Apellidos">
+        
+        <label for="telefono">Número de télefono</label>
+        <input type="tel" id="teléfono" name="telefono" pattern="^(6|7|8|9)[0-9]{2}([ -]?[0-9]{3}){2}$" required>
+        
+        <label for="correo"></label>
+        <input type="email" id="correo" name="correo" required placeholder="Correo Electrónico">
+        
+        <input type="submit" value="Suscribirse">
+        </form>
+        </div>
+        </aside>
+        <article>
+            <div class="proximoviaje">
+                <i class="fa fa-calendar"></i> <h4>PRÓXIMOS VIAJES</h4>
+                <p>A la espera de nuevas fechas...</p>
+            </div>
+        </article>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Crazy Goat Adventure. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
