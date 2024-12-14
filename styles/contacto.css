@@ -1,0 +1,136 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #deb887;
+}
+
+header {
+    position: relative;
+    height: 70vh;
+    color:aliceblue;
+    font-family:"Lato", Helvetica, Arial, sans-serif ;
+    margin: auto;
+
+}
+.imagen{
+    position: relative;
+        height: 70vh; 
+        overflow: hidden; /* Para evitar que la imagen se salga del contenedor */
+    
+}
+.ajustarimagen{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; /* Hace que la imagen ocupe el ancho del contenedor */
+    height: 100%; /* Hace que la imagen ocupe el alto del contenedor */
+    object-fit: cover; /* Ajusta la imagen para cubrir el contenedor proporcionalmente */
+    z-index: -1; /* Coloca la imagen detrás del contenido */
+
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: rgba(0, 0, 0,.7);
+    color: white;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin: 0 1rem;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.formulariocontacto{
+    width:40vw;
+    padding: 35px;
+    background-color: rgba(0, 0, 0,.7);
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+    text-align: center;
+    margin: 10px auto;;
+    padding: 20px;
+    border-radius: 5px;
+    top: 50px;
+    color: aliceblue;
+    
+}
+
+form label{
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: lighter;
+}
+
+form button{
+    display:block;
+    margin: 10px 0 5px;
+    font-weight:lighter ;
+    margin: auto;
+    
+}
+section{
+    margin: 20px auto;
+    text-align: center;
+    font-size:20px;
+
+}
+footer{
+    
+     text-align: center;
+     padding: 1rem;
+     background-color: #222;
+     color: white;
+    
+    
+}
+@media (max-width: 768px) {
+    .nav-links {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .nav-links li {
+        margin: 0.5rem 0;
+    }
+    .formulariocontacto label{
+        text-align: left;
+    }
+    .formulariocontacto input,
+    .formulariocontacto textarea{
+        width: 100%;
+        padding:10px;
+        margin-bottom: 10px;
+    }
+    .formulariocontacto button{
+        width: 100%;
+        padding: 0;
+    }
+
+    
+        
+        
+    
+    
+}
+
+

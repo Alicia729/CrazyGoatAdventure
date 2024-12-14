@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #deb887;
+}
+
+header {
+    position: relative;
+    height: 70vh;
+    color:aliceblue;
+    font-family:"Lato", Helvetica, Arial, sans-serif ;
+}
+ header h1{
+    color:aliceblue;
+    text-align: center;
+    margin:50px;
+ }
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: rgba(0, 0, 0,.7);
+    color: white;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin: 0 1rem;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+
+
+ article h2{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: aliceblue;
+}
+ 
+
+.contenedortexto{
+    background-color:aliceblue;
+    max-width: 1000px; /* Ajusta este valor según tus necesidades */
+    margin: 0 auto; /* Centra el contenedor */
+    padding: 20px; 
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+    color:#deb887;
+    text-align: center;
+    
+
+}
+
+.imagenduna{
+    width:30vw;
+    height: 50vh;
+    position: center;
+}
+
+.redsocial{
+    display: flex;
+    gap: 15px; /* Espaciado entre los iconos */
+    justify-content: center;
+}
+
+.redsocial a {
+    color: #000; /* Cambia el color de los iconos */
+    font-size: 50px; /* Tamaño de los iconos */
+    text-decoration: none;
+}
+
+.redsocial a:hover {
+    color: #0077ff; /* Cambia el color al pasar el ratón */
+}
+
+
+/* Responsive */
+@media (max-width: 768px) {
+    .nav-links {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .nav-links li {
+        margin: 0.5rem 0;
+    }
+
+    .imagenduna {
+        width:100%;
+        max-width:400px;
+    }
+}
